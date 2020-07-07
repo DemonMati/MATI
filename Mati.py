@@ -1,3 +1,4 @@
+
 #!/usr/bin/python2
 #coding=utf-8
 #The Credit For This Code Goes To DemonMati
@@ -69,7 +70,7 @@ def menu():
     time.sleep(0.05)
     print("\033[1;41m3\033[1;37m         Type python2 Cloning.py          \033[1;0m")
     time.sleep(0.05)
-    print("\033[1;96m[1]  Install With Out Fb Id  Tool      ●")
+    print("\033[1;96m[1]  Install With Out Fb Id  Tool      ●
     time.sleep(0.05)
     print("\033[1;95m[13] Tool Update                       ●")
     time.sleep(0.05)
@@ -93,7 +94,7 @@ def MATI():
 	elif DEMON =="2":
 	        clear()
 	os.system('git pull origin master')
-		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+		raw_input('\n\x1b[1;91m[\x1b[1;97mBack\x1b[1;91m]')
 		menu()
         elif unikers =="7":
 		os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
@@ -107,8 +108,8 @@ def MATI():
 		os.system('reset')
 		print logo14
 		toket=open('login.txt','r').read()
-		print "\033[1;91m[+]\033[1;95mYour token\033[1;91m:\033[1;96m"+toket
-		raw_input("\n\033[1;91m[\033[1;93mBack\033[1;91m]")
+		print "\033[1;91m[+] \033[1;95mYour token\033[1;91m :\033[1;96m "+toket
+		raw_input("\n\033[1;91m[ \033[1;93mBack \033[1;91m]")
 		menu()
 	elif unikers =="11":
 		os.system('clear')
@@ -126,7 +127,7 @@ def MATI():
                 jalan('\033[1;96m==========100%')
                 jalan('\033[1;91mCloning Data Reset')
 		os.system('git pull origin master')
-		raw_input('\n\x1b[1;91m[\x1b[1;97mBack\x1b[1;91m]')
+		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
 	elif unikers =="0":
 		jalan('Token Removed')
@@ -169,7 +170,7 @@ def pilih_crack():
 		os.system('clear')
 		print logo
 		jjt = raw_input("\033[1;96m[+] \033[1;93mEnter ID\033[1;93m: \033[1;97m")
-		print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m---------------»"
+		print "\033[1;95m«-----------------\033[1;91mDemonMati\033[1;95m---------------»"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
 			td = json.loads(m.text)
@@ -227,7 +228,7 @@ def pilih_crack():
 		try:
 			os.mkdir('cookie')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:DemonMati
 		try:
 			k = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			y = json.loads(k.text)
