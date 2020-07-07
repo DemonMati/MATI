@@ -107,7 +107,7 @@ def MATI():
 		os.system('reset')
 		print logo14
 		toket=open('login.txt','r').read()
-		print "\033[1;91m[+] \033[1;95mYour token\033[1;91m :\033[1;96m "+toket
+		print "\033[1;91m[+]\033[1;95mYour token\033[1;91m:\033[1;96m"+toket
 		raw_input("\n\033[1;91m[\033[1;93mBack\033[1;91m]")
 		menu()
 	elif unikers =="11":
