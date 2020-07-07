@@ -108,7 +108,7 @@ def MATI():
 		print logo14
 		toket=open('login.txt','r').read()
 		print "\033[1;91m[+] \033[1;95mYour token\033[1;91m :\033[1;96m "+toket
-		raw_input("\n\033[1;91m[ \033[1;93mBack \033[1;91m]")
+		raw_input("\n\033[1;91m[\033[1;93mBack\033[1;91m]")
 		menu()
 	elif unikers =="11":
 		os.system('clear')
@@ -126,7 +126,7 @@ def MATI():
                 jalan('\033[1;96m==========100%')
                 jalan('\033[1;91mCloning Data Reset')
 		os.system('git pull origin master')
-		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+		raw_input('\n\x1b[1;91m[\x1b[1;97mBack\x1b[1;91m]')
 		menu()
 	elif unikers =="0":
 		jalan('Token Removed')
