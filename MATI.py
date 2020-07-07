@@ -26,7 +26,6 @@ logo = """
  \033[1;96m | |\  /| |     / ___ \     | |      | |   
  \033[1;96m_| |_\/_| |_  _/ /   \ \_  _| |_    _| |_  
 |\033[1;96m_____||_____||____| |____||_____|  |_____| 
-                                           
 \033[1;96m«-----------------\033[1;91mDemonMati\033[1;96m-----------------»
 \033[1;91m  ┈┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈┈┈  DemonMati
 \033[1;91m  ┈┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈┈┈  BlackTiger
@@ -97,13 +96,13 @@ def menu():
     time.sleep(0.05)
     print("\033[1;91m[0]  EXIT")
     time.sleep(0.05)
-    MATI()
-def MATI():
-	DEMON = raw_input("\033[1;91m slect option>>>   ")
-	if DEMON =="":
+    Mafia()
+def Mafia():
+	Black = raw_input("\033[1;91m slect option>>>   ")
+	if Black =="":
 		print ("Select a valid option !")
-		MATI()
-	elif DEMON =="1":
+		Mafia()
+	elif Black =="1":
 		clear()
 		print(logo)
 		os.system("ls")
@@ -112,5 +111,5 @@ def MATI():
                 love("\033[1;93mTool User Name\033[1;92m Demon\033[1;93m Password \033[1;92mMati")
                 time.sleep(6)
                 os.system("python2 MATI.py")
-	elif DEMON =="2":
+	elif Black =="2":
 	        clear()
