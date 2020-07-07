@@ -69,7 +69,7 @@ def menu():
     time.sleep(0.05)
     print("\033[1;41m3\033[1;37m         Type python2 Cloning.py          \033[1;0m")
     time.sleep(0.05)
-    print("\033[1;96m[1]  Install With Out Fb Id  Tool      ●
+    print("\033[1;96m[1]  Install With Out Fb Id  Tool      ●")
     time.sleep(0.05)
     print("\033[1;95m[13] Tool Update                       ●")
     time.sleep(0.05)
